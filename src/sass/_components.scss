@@ -1,0 +1,20 @@
+.wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 100%;
+
+    position: relative;
+}
+
+.headerFlex {
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionPadding {
+    padding: 3rem;
+}
+
+.headingStyle {
+    @include headingStyle;
+}

@@ -1,0 +1,16 @@
+@mixin pagePadding {
+    padding: 3rem;
+
+
+}
+
+@mixin headingStyle {
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+}
+
+@mixin sectionTitle {
+    font-size: 2.5rem;
+}
